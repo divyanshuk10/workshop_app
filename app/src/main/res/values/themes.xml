@@ -1,0 +1,45 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.WorkshopApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="colorSecondary">@color/white</item>
+        <item name="android:editTextColor">@android:color/white</item>
+        <item name="theme">@style/Theme.WorkshopApp</item>
+    </style>
+
+    <style name="Theme.WorkshopApp" parent="Base.Theme.WorkshopApp">
+        <item name="searchViewStyle">@style/MySearchView</item>
+        <item name="toolbarStyle">@style/MyToolbarStyle</item>
+    </style>
+
+    <style name="MyToolbarStyle" parent="Widget.AppCompat.Toolbar">
+        <!-- Search button icon -->
+        <item name="fontFamily">@font/titillium_web_regular</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:backgroundTint">@color/white</item>
+        <item name="android:fontFamily">@font/titillium_web_regular</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:textColorSecondary">@android:color/white</item>
+        <item name="android:editTextColor">@android:color/white</item>
+        <item name="android:textColorHint">@android:color/white</item>
+        <item name="searchViewStyle">@style/MySearchView</item>
+    </style>
+
+    <style name="MySearchView" parent="Widget.AppCompat.SearchView">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:textColorSecondary">@android:color/white</item>
+        <item name="android:textColorHint">@android:color/white</item>
+        <item name="android:editTextColor">@android:color/white</item>
+        <item name="editTextColor">@android:color/white</item>
+        <item name="android:titleTextColor">@android:color/white</item>
+        <item name="titleTextColor">@android:color/white</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="iconifiedByDefault">true</item>
+        <item name="searchHintIcon">@null</item>
+    </style>
+
+</resources>
